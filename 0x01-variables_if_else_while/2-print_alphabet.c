@@ -4,10 +4,8 @@
 /**
  * main - Entry point
  *
- * Description: print all alphabet letters
- *
  * Return: Always 0 (Success)
-*/
+ */
 
 int main(void)
 {
@@ -22,3 +20,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+
