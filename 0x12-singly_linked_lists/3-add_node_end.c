@@ -8,7 +8,6 @@
  *
  * Return: length of string
  */
-
 unsigned int _strlen(char *str)
 {
 	unsigned int i;
@@ -25,7 +24,6 @@ unsigned int _strlen(char *str)
  *
  * Return: pointer to the new node
  */
-
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new, *tmp;
