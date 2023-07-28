@@ -8,14 +8,14 @@
  * @h: name of the list
  * Return: the number of nodes.
  */
-size_t list_len(const list_t *l)
+size_t list_len(const list_t *h)
 {
 	int count = 0;
 
-	while (l)
+	while (h)
 	{
 		count++;
-		l = l->next;
+		h = h->next;
 	}
 	return (count);
 }
