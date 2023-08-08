@@ -7,7 +7,6 @@
  *
  * Return: Always 0.
  */
-
 int main(int ac, char **av)
 {
     ssize_t n;
@@ -23,3 +22,4 @@ int main(int ac, char **av)
     printf("\n(printed chars: %li)\n", n);
     return (0);
 }
+
